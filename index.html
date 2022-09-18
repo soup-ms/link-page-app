@@ -6,13 +6,41 @@
     <title>Michael Sousa's Links</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <!--<script src='main.js'></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+    window.addEventListener('DOMContentLoaded', () =>{
+                
+        VANTA.BIRDS({
+            el: "#vanta",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            backgroundAlpha: 0.0,
+        })
+
+        setTimeout(=>{
+            const main = document.querySelector('main')
+            console.log('main': main)
+            main.style.opacity = 1;
+            main.style.filter = 'blur(0px');
+        }, 1000)
+            
+    })
+    </script>
+
 </head>
 <body>
+    <div id="vanta"></div>
     
     <header>
     <img src="./svg/profpicnew.JPG" alt="me">
-    <h1>@Michael S.</h1>
+    <h1>@MichaelSousajr</h1>
     </header>
     
     <ul>
@@ -29,7 +57,7 @@
 
         <!--change this icon to black-->
         <li>
-        <img src="./svg/instagram.svg" alt="instagram" width="50">
+        <img  class="instagramsvg" src="./svg/instagram.svg" alt="instagram" width="50" >
         <a href="https://www.instagram.com/michaelsousajr/">Instagram</a>
         </li>
 
