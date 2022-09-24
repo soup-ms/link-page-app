@@ -2,15 +2,15 @@ body, html{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    background: grey;
-    color: #fff;
+    background: #23153C;
+    color: #23153C;
     height: 100%;
 }
 
 body{
   background: url(./svg/charlie.png) no-repeat center center fixed; 
   background-size: cover;
-  height: auto;
+  height: 50%;
 }
 
 #vanta {
@@ -19,7 +19,7 @@ body{
   left: 0;
   top: 0;
   width: 100%;
-  height: 200%;
+  height: 100%;
 }
 
   video {
