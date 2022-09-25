@@ -34,6 +34,5 @@ function snapchatMsg(){
     alert("michaelsousa.00")
 }
 
-
-//change hue or background color on movement or reload
-document.getElementById('vanta').style.filter = 'hue-rotate(20deg)';
+var rand = Math.floor(Math.random() * 360);
+document.getElementById('vanta').style.filter = `hue-rotate(${rand}deg)`;
