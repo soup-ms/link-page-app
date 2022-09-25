@@ -1,9 +1,8 @@
-body, html{
+body , html{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    background: #23153C;
-    color: #23153C;
+    background: #201d26;
     height: 100%;
 }
 
