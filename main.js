@@ -33,6 +33,6 @@ function websiteMsg(){
 function snapchatMsg(){
     alert("michaelsousa.00")
 }
-let a = 0;
+
 var rand = Math.floor(Math.random() * 360);
 document.getElementById('vanta').style.filter = `hue-rotate(${rand}deg)`;
