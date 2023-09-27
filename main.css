@@ -12,16 +12,26 @@ body{
   height: 50%;
 }
 
-#vanta {
-  z-index: 0;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 130%;
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* adjust if you want it to be shorter or taller */
+    overflow: hidden;
 }
 
-  video {
+.video-background video {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1; /* make sure video is behind your content */
+}
+
+
+
+ video {
     z-index: 0;
     position: absolute;
     left: 0;
@@ -30,7 +40,8 @@ body{
     height: 100%;
     object-fit: cover;
   }
-  
+
+
   main {
     position: relative;
     background: cover;
