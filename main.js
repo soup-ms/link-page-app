@@ -11,10 +11,6 @@ function discordMsg(){
     alert("soupz_")
 }
 
-function websiteMsg(){
-    alert("Not Yet Available")
-}
-
 function snapchatMsg(){
     alert("michaelsousajr")
 }
