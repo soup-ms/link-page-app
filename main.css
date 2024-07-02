@@ -13,7 +13,7 @@ body{
 .bg_video {
     position: relative;
     width: 100%;
-    height: 200vh; /* adjust if you want it to be shorter or taller */
+    height: 185vh; /* adjust if you want it to be shorter or taller */
     overflow: hidden;
 }
 
@@ -82,7 +82,7 @@ body{
     list-style: none;
     margin: 0 auto;
     padding: 2em;
-    max-width: 750px;
+    max-width: 300px;
   }
   
   ul > li {
